@@ -1,0 +1,11 @@
+
+databaseChangeLog:
+
+  - include:
+      file: db/changelog/version/0.0.1/000_create_schema_sauron.sql
+  - include:
+      file: db/changelog/version/0.0.1/001_create_table_components.sql
+  - include:
+      file: db/changelog/version/0.0.1/002_create_table_incidents.sql
+  - include:
+      file: db/changelog/version/0.0.1/003_insert_data.sql

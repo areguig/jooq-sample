@@ -1,0 +1,8 @@
+databaseChangeLog:
+
+  - property:
+      name: schemaName
+      value: sauron
+      dbms: h2
+  - include:
+      file: db/changelog/db.changelog-v0.0.1.yaml
